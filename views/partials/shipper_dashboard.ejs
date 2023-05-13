@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shipper Dashboard</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="shipper_dashboard_css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="images/logo dashboard.png" alt="Company's Logo">
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close</span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view</span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long</span>
+                    <h3>Orders</h3>
+                    <span class="Orders Count">26</span>
+                </a>
+            </div>
+        </aside>
+    <main>
+        <h1>Dashboard</h1>
+        <div class="date">
+            <input type="date">
+        </div>
+        <div class="recent-orders">
+            <h2>Recent Orders</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Products</th> 
+                        <th>Total</th> 
+                        <th>Address</th> 
+                        <th>Shipping Status</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>VBAVAVVAVAVVvvV</td>
+                        <td>VBAVAVVAVAVVvvV</td>
+                        <td>VBAVAVVAVAVVvvV</td>
+                        <td class="warning">Inactive</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a href="#">Show All</a>
+        </div>
+    </main>  
+    <div class="right">
+<!-----TOP---->
+        <div class="top">
+            <button id="menu-btn">
+                <span class="material-icons-sharp">menu</span>
+            </button>
+            <div class="theme-toggler">
+                <span class="material-icons-sharp">light_mode</span>
+                <span class="material-icons-sharp">dark_mode</span>
+            </div>
+            <div class="profile">
+                <div class="info">
+                    <p>Hey,<b>Daniel</b></p>
+                    <small class="text-muted">Shipper</small>
+                </div>
+                <div class="profile-photo">
+                    <img src="images/Doraemon_character.png" alt="Shipper Avatar">
+                </div>
+            </div>
+        </div>
+        <!------END OF TOP---->
+        <div class="recent-updates">
+            <h2>Recent Updates</h2>
+            <div class="updates">
+                <div class="update">
+                    <div class="message">
+                        <p><b>You</b> have finished order Number ??</p>
+                    <small class="text-muted">2 Minutes Ago</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+    </div>
+    <script src="js_dashboard.js"></script>
+</body>
+</html>
