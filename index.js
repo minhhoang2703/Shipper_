@@ -22,5 +22,6 @@ app.get("/", (req, res) => {
     res.render("users/signup_shipper");
   });
   app.get("/users/contact", (req, res) => {
-    res.render("users/contact");
-});
+    res.render("users/order_detail");
+   });
+  
