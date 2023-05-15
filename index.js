@@ -24,7 +24,9 @@ app.get("/", (req, res) => {
   app.get("/order", (req, res) => {
     res.render("shipper/order_detail");
    });
-  
+   app.get("/edit", (req, res) => {
+    res.render("shipper/edit_profile");
+   });
 const port = process.env.PORT || 8000;
 
 app.listen(port, () => {

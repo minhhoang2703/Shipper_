@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Bruno+Ace&family=Poppins:wght@200&display=swap');
 body{
     font-family:'Poppins', sans-serif;
-    background-color: #ececec;
+    background-color: #961E3A;
 }
 .box-area{
     width: 930px;
 }
 .btn{
-    background-color: #ffe135;
+    background-color: #961E3A;
 }
 .right-box{
     padding: 40px 30px 40px 40px;
